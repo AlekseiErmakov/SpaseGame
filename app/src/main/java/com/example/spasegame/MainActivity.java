@@ -3,6 +3,7 @@ package com.example.spasegame;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         MileniumFalcon=SpaceShip.getInstance();
         startCoords();
         addButtons();
+
         handler = new Handler(){
             @Override
             public void handleMessage(@NonNull Message msg) {
@@ -56,6 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         };
 
     }
+
     private void startCoords(){
         layout.setX(-80);
         layout.setY(1300);

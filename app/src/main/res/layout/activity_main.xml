@@ -43,6 +43,7 @@
             android:text="▶"
             android:textColor="#881736DD"
             android:textSize="36sp" />
+
     </LinearLayout>
 
     <ImageView
