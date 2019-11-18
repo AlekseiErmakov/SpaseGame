@@ -54,4 +54,12 @@
         tools:layout_editor_absoluteX="133dp"
         tools:layout_editor_absoluteY="200dp" />
 
+    <ImageView
+        android:id="@+id/shiprocket"
+        android:layout_width="13dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/rocket"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="136dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
