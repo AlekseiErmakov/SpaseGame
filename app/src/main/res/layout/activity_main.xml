@@ -4,17 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/e373887954966aa4517e15eea2e775c3">
+    android:background="@drawable/e373887954966aa4517e15eea2e775c3"
+    tools:context=".MainActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="0dp"
-        android:layout_height="91dp"
+        android:id="@+id/llBut"
+        android:layout_width="411dp"
+        android:layout_height="356dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        tools:layout_editor_absoluteY="375dp">
 
         <Button
             android:id="@+id/left"
@@ -46,5 +44,13 @@
             android:textColor="#881736DD"
             android:textSize="36sp" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/Myship"
+        android:layout_width="145dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/beat_hazard4"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="200dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,909 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 340 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 9421598 0 0
+ciMethod java/lang/Thread currentThread ()Ljava/lang/Thread; 2049 1 256 0 -1
+ciMethod java/lang/Thread start ()V 2049 1 739 0 0
+ciMethod java/lang/Thread start0 ()V 2049 1 256 0 -1
+ciMethod java/lang/Thread interrupt ()V 1 1 591 0 -1
+ciMethod java/lang/Thread isAlive ()Z 3073 1 384 0 -1
+ciMethod java/lang/ThreadGroup add (Ljava/lang/Thread;)V 2057 1 742 0 -1
+ciMethod java/lang/ThreadGroup threadStartFailed (Ljava/lang/Thread;)V 0 0 1 0 -1
+ciMethod sun/misc/Unsafe compareAndSwapObject (Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe compareAndSwapInt (Ljava/lang/Object;JII)Z 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe unpark (Ljava/lang/Object;)V 4105 1 513 0 -1
+ciMethod java/util/HashMap size ()I 1025 1 128 0 0
+ciMethod java/util/concurrent/atomic/AtomicInteger get ()I 1041 1 130 0 0
+ciMethod java/util/concurrent/atomic/AtomicInteger compareAndSet (II)Z 801 1 1564 0 0
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 2073 1 38278 0 -1
+ciMethodData java/lang/Object <init> ()V 2 9421605 orig 264 8 206 245 83 0 0 0 0 128 4 30 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 41 9 126 4 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/concurrent/locks/ReentrantLock lock ()V 3081 1 128160 0 608
+ciMethod java/util/concurrent/locks/ReentrantLock unlock ()V 2057 1 179745 0 320
+ciMethod java/util/HashSet size ()I 2081 1 8718 0 64
+ciMethod java/util/HashSet add (Ljava/lang/Object;)Z 2401 1 51792 0 -1
+ciMethod java/util/HashSet remove (Ljava/lang/Object;)Z 2049 1 5612 0 -1
+ciMethod java/util/Deque add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/LinkedList linkLast (Ljava/lang/Object;)V 2065 1 5477 0 256
+ciMethod java/util/LinkedList add (Ljava/lang/Object;)Z 2065 1 26292 0 256
+ciMethod java/util/LinkedList$Node <init> (Ljava/util/LinkedList$Node;Ljava/lang/Object;Ljava/util/LinkedList$Node;)V 2129 1 19958 0 64
+ciMethod java/util/concurrent/locks/ReentrantLock$NonfairSync lock ()V 3081 1 5513 0 256
+ciMethod java/util/concurrent/locks/ReentrantLock$NonfairSync tryAcquire (I)Z 1545 1 5314 0 160
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync lock ()V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync nonfairTryAcquire (I)Z 2057 1 5391 0 160
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync tryRelease (I)Z 2057 1 5907 0 128
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync isHeldExclusively ()Z 2049 1 43456 0 64
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer <init> ()V 2073 1 22666 0 32
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer getState ()I 1041 1 130 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer setState (I)V 2049 1 17899 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetState (II)Z 2049 1 33981 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer enq (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 1161 49 6302 0 416
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer addWaiter (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 1 1 6145 0 672
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer setHead (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 1777 1 10170 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer unparkSuccessor (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 25 1 1434 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer cancelAcquire (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer shouldParkAfterFailedAcquire (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 1 1 5133 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer selfInterrupt ()V 0 0 47 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer parkAndCheckInterrupt ()Z 1 1 5337 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer acquireQueued (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z 753 1 5281 0 1056
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer tryAcquire (I)Z 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer tryRelease (I)Z 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer isHeldExclusively ()Z 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer acquire (I)V 409 1 7148 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer release (I)Z 2065 1 19829 0 256
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer hasQueuedPredecessors ()Z 3097 1 5508 0 96
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer transferForSignal (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 2081 1 5380 0 544
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetHead (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 49 1 556 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetTail (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 2049 1 11978 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetWaitStatus (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;II)Z 1553 1 17423 0 0
+ciMethod java/util/concurrent/locks/AbstractOwnableSynchronizer <init> ()V 2073 1 22666 0 0
+ciMethod java/util/concurrent/locks/AbstractOwnableSynchronizer setExclusiveOwnerThread (Ljava/lang/Thread;)V 2097 1 29748 0 0
+ciMethod java/util/concurrent/locks/AbstractOwnableSynchronizer getExclusiveOwnerThread ()Ljava/lang/Thread; 1025 1 128 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$Node predecessor ()Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 1777 1 20652 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$Node <init> ()V 57 1 217 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$Node <init> (Ljava/lang/Thread;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 4105 1 6144 0 -1
+ciMethod java/util/concurrent/BlockingQueue offer (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/concurrent/BlockingQueue isEmpty ()Z 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/Condition signalAll ()V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject doSignalAll (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 9 1 879 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject signalAll ()V 1201 1 9029 0 0
+ciMethodData java/util/LinkedList$Node <init> (Ljava/util/LinkedList$Node;Ljava/lang/Object;Ljava/util/LinkedList$Node;)V 2 19958 orig 264 8 206 245 83 0 0 0 0 24 136 74 22 0 0 0 0 72 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 1 0 0 97 103 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x4cec oops 0
+ciMethodData java/util/LinkedList add (Ljava/lang/Object;)Z 2 26292 orig 264 8 206 245 83 0 0 0 0 104 84 74 22 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 145 45 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x0 0x20dfe960 0x65b3 0x0 0x0 oops 1 2 java/util/LinkedList
+ciMethodData java/util/LinkedList linkLast (Ljava/lang/Object;)V 2 5477 orig 264 8 206 245 83 0 0 0 0 40 75 74 22 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 25 163 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 72 0 0 0 255 255 255 255 2 0 12 0 0 0 0 0 data 9 0xc0002 0x1463 0x160007 0x1049 0x38 0x41a 0x1e0003 0x41a 0x18 oops 0
+ciMethodData java/util/HashSet size ()I 2 8718 orig 264 8 206 245 83 0 0 0 0 104 242 58 22 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 81 8 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x20a0ee60 0x1ada 0x20a0e9e0 0x630 oops 2 2 java/util/LinkedHashMap 4 java/util/HashMap
+ciMethod org/gradle/internal/concurrent/ManagedExecutorImpl execute (Ljava/lang/Runnable;)V 3313 1 4110 0 0
+ciMethod org/gradle/internal/concurrent/ManagedExecutorImpl trackedCommand (Ljava/lang/Runnable;)Ljava/lang/Runnable; 3337 1 4113 0 0
+ciMethod java/util/concurrent/Executor execute (Ljava/lang/Runnable;)V 0 0 1 0 -1
+ciMethod java/util/concurrent/ThreadFactory newThread (Ljava/lang/Runnable;)Ljava/lang/Thread; 0 0 1 0 -1
+ciMethod java/util/concurrent/ThreadPoolExecutor runStateOf (I)I 3073 1 23760 0 0
+ciMethod java/util/concurrent/ThreadPoolExecutor workerCountOf (I)I 3281 1 20461 0 0
+ciMethod java/util/concurrent/ThreadPoolExecutor isRunning (I)Z 2529 1 8693 0 0
+ciMethod java/util/concurrent/ThreadPoolExecutor compareAndIncrementWorkerCount (I)Z 2049 1 579 0 0
+ciMethod java/util/concurrent/ThreadPoolExecutor compareAndDecrementWorkerCount (I)Z 217 1 444 0 -1
+ciMethod java/util/concurrent/ThreadPoolExecutor decrementWorkerCount ()V 193 25 420 0 -1
+ciMethod java/util/concurrent/ThreadPoolExecutor tryTerminate ()V 321 1 1090 0 -1
+ciMethod java/util/concurrent/ThreadPoolExecutor reject (Ljava/lang/Runnable;)V 0 0 1 0 -1
+ciMethod java/util/concurrent/ThreadPoolExecutor addWorker (Ljava/lang/Runnable;Z)Z 441 1 705 0 0
+ciMethod java/util/concurrent/ThreadPoolExecutor addWorkerFailed (Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V 0 0 1 0 0
+ciMethod java/util/concurrent/ThreadPoolExecutor execute (Ljava/lang/Runnable;)V 3313 1 4123 0 0
+ciMethod java/util/concurrent/ThreadPoolExecutor getThreadFactory ()Ljava/util/concurrent/ThreadFactory; 1025 1 128 0 0
+ciMethod java/util/concurrent/ThreadPoolExecutor remove (Ljava/lang/Runnable;)Z 0 0 1 0 -1
+ciMethod org/gradle/internal/concurrent/ManagedExecutorImpl$1 <init> (Lorg/gradle/internal/concurrent/ManagedExecutorImpl;Ljava/lang/Runnable;)V 3337 1 4113 0 0
+ciMethod java/util/concurrent/ThreadPoolExecutor$Worker <init> (Ljava/util/concurrent/ThreadPoolExecutor;Ljava/lang/Runnable;)V 2049 1 579 0 0
+ciMethod java/util/concurrent/locks/LockSupport unpark (Ljava/lang/Thread;)V 2289 1 10479 0 0
+ciMethod org/gradle/internal/work/WorkerLeaseService getMaxWorkerCount ()I 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/ReentrantLock$FairSync lock ()V 41 1 5 0 0
+ciMethod java/util/concurrent/locks/ReentrantLock$FairSync tryAcquire (I)Z 3097 1 5527 0 224
+ciMethodData java/util/concurrent/locks/AbstractOwnableSynchronizer setExclusiveOwnerThread (Ljava/lang/Thread;)V 2 29748 orig 264 8 206 245 83 0 0 0 0 176 198 75 22 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 1 0 0 113 153 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod org/gradle/internal/operations/BuildOperationQueue add (Lorg/gradle/internal/operations/BuildOperation;)V 0 0 1 0 -1
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer setState (I)V 2 17899 orig 264 8 206 245 83 0 0 0 0 200 151 75 22 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 89 39 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer <init> ()V 2 22666 orig 264 8 206 245 83 0 0 0 0 152 150 75 22 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 57 188 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x5787 oops 0
+ciMethodData java/util/concurrent/locks/AbstractOwnableSynchronizer <init> ()V 2 22666 orig 264 8 206 245 83 0 0 0 0 24 198 75 22 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 57 188 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x5787 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer release (I)Z 2 19829 orig 264 8 206 245 83 0 0 0 0 216 173 75 22 0 0 0 0 240 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 153 99 2 0 1 0 0 0 75 60 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 160 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 20 0x20005 0x50b 0x1a386ec0 0x24b9 0x1a386f70 0x177d 0x50007 0x66f 0x70 0x4607 0xe0007 0x1c68 0x50 0x299f 0x150007 0x248c 0x30 0x513 0x1a0002 0x513 oops 2 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 4 java/util/concurrent/locks/ReentrantLock$FairSync
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer unparkSuccessor (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 2 1434 orig 264 8 206 245 83 0 0 0 0 152 155 75 22 0 0 0 0 104 2 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 185 44 0 0 25 0 0 0 73 5 0 0 2 0 0 0 2 0 0 0 1 0 26 0 2 0 0 0 24 1 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 35 0x60007 0x84 0x30 0x513 0xc0002 0x513 0x160007 0x2 0x40 0x595 0x1d0007 0x595 0x98 0x0 0x2a0007 0x2 0x78 0x3 0x300007 0x0 0x58 0x3 0x380007 0x0 0x20 0x3 0x450003 0x3 0xffffffffffffffa0 0x490007 0x0 0x30 0x597 0x500002 0x597 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetState (II)Z 2 33981 orig 264 8 206 245 83 0 0 0 0 104 152 75 22 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 233 29 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 48 0 0 0 255 255 255 255 5 0 9 0 0 0 0 0 data 6 0x90005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethod org/gradle/internal/operations/BuildOperationContext setResult (Ljava/lang/Object;)V 0 0 1 0 -1
+ciMethodData java/util/concurrent/locks/ReentrantLock$Sync tryRelease (I)Z 2 5907 orig 264 8 206 245 83 0 0 0 0 248 129 75 22 0 0 0 0 112 2 0 0 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 145 176 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 32 1 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 36 0x10005 0x0 0x1a386ec0 0x149d 0x1a386f70 0x175 0x70002 0x1612 0xb0005 0x0 0x1a386ec0 0x149d 0x1a386f70 0x175 0xe0007 0x1612 0x30 0x0 0x150002 0x0 0x1c0007 0x415 0x50 0x11fe 0x230005 0x0 0x1a386ec0 0x1089 0x1a386f70 0x175 0x280005 0x0 0x1a386ec0 0x149d 0x1a386f70 0x175 oops 8 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 4 java/util/concurrent/locks/ReentrantLock$FairSync 10 java/util/concurrent/locks/ReentrantLock$NonfairSync 12 java/util/concurrent/locks/ReentrantLock$FairSync 26 java/util/concurrent/locks/ReentrantLock$NonfairSync 28 java/util/concurrent/locks/ReentrantLock$FairSync 32 java/util/concurrent/locks/ReentrantLock$NonfairSync 34 java/util/concurrent/locks/ReentrantLock$FairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock unlock ()V 2 179756 orig 264 8 206 245 83 0 0 0 0 152 202 56 22 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 89 233 21 0 1 0 0 0 64 166 1 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 6 0x50005 0x3 0x1a386ec0 0x2837e 0x1a386f70 0x39b6 oops 2 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 4 java/util/concurrent/locks/ReentrantLock$FairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock$Sync nonfairTryAcquire (I)Z 2 5391 orig 264 8 206 245 83 0 0 0 0 48 129 75 22 0 0 0 0 224 2 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 113 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 144 1 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 50 0x2 0x140e 0x50005 0xd 0x1a386ec0 0x1401 0x0 0x0 0xa0007 0xe45 0xa0 0x5c9 0x100005 0x0 0x1a386ec0 0x5c9 0x0 0x0 0x130007 0x1 0x100 0x5c8 0x180005 0x0 0x1a386ec0 0x5c8 0x0 0x0 0x1f0005 0xd 0x1a386ec0 0xe38 0x0 0x0 0x220007 0x24 0x80 0xe21 0x2c0007 0xe21 0x30 0x0 0x350002 0x0 0x3c0005 0xd 0x1a386ec0 0xe14 0x0 0x0 oops 5 4 java/util/concurrent/locks/ReentrantLock$NonfairSync 14 java/util/concurrent/locks/ReentrantLock$NonfairSync 24 java/util/concurrent/locks/ReentrantLock$NonfairSync 30 java/util/concurrent/locks/ReentrantLock$NonfairSync 46 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock lock ()V 2 128160 orig 264 8 206 245 83 0 0 0 0 40 200 56 22 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 249 152 15 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 192 4 0 0 0 0 0 data 6 0x4c005 0x0 0x1a386ec0 0x1f332 0x1a386f70 0x5 oops 2 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 4 java/util/concurrent/locks/ReentrantLock$FairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock$NonfairSync lock ()V 2 5513 orig 264 8 206 245 83 0 0 0 0 128 122 75 22 0 0 0 0 32 2 0 0 144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 65 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 216 0 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 27 0x30005 0x0 0x1a386ec0 0x1408 0x0 0x0 0x60007 0x258 0x78 0x11b1 0xa0002 0x11b1 0xd0005 0x0 0x1a386ec0 0x11b1 0x0 0x0 0x100003 0x11b1 0x48 0x150005 0x0 0x1a386ec0 0x258 0x0 0x0 oops 3 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 14 java/util/concurrent/locks/ReentrantLock$NonfairSync 23 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer acquire (I)V 2 7148 orig 264 8 206 245 83 0 0 0 0 168 171 75 22 0 0 0 0 16 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51 0 0 0 201 221 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 192 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 24 0x20005 0xd8 0x1a386ec0 0x258 0x1a38aba0 0x1889 0x50007 0x1baf 0x90 0xb 0xd0002 0xb 0x110005 0x0 0x1a386ec0 0xb 0x0 0x0 0x140007 0xb 0x30 0x0 0x170002 0x0 oops 3 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 4 java/util/concurrent/ThreadPoolExecutor$Worker 14 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock$NonfairSync tryAcquire (I)Z 2 5314 orig 264 8 206 245 83 0 0 0 0 24 123 75 22 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 9 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x74 0x1a386ec0 0x138d 0x0 0x0 oops 1 2 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer addWaiter (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 2 6145 orig 264 8 206 245 83 0 0 0 0 0 154 75 22 0 0 0 0 208 1 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 192 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 128 0 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 16 0x40002 0x17fe 0x80002 0x1800 0x120007 0x1be 0x50 0x164b 0x1d0002 0x164c 0x200007 0x16 0x20 0x1635 0x2c0002 0x1d6 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer acquireQueued (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z 2 5281 orig 264 8 206 245 83 0 0 0 0 168 161 75 22 0 0 0 0 224 2 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 94 0 0 0 25 162 0 0 41 18 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 24 0 2 0 0 0 136 1 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 49 0x60005 0x81 0x1a38a180 0x1607 0x0 0x0 0x110007 0xc7 0xb0 0x15c4 0x160005 0x0 0x1a386f70 0x7f6 0x1a386ec0 0xdce 0x190007 0x17f 0x60 0x1445 0x1e0002 0x1445 0x2e0007 0x1445 0x30 0x0 0x330002 0x0 0x3c0002 0x246 0x3f0007 0x12e 0x50 0x117 0x430002 0x116 0x460007 0x115 0x20 0x2 0x4c0003 0x245 0xfffffffffffffec0 0x520007 0x0 0x30 0x0 0x570002 0x0 oops 3 2 java/util/concurrent/locks/AbstractQueuedSynchronizer$Node 12 java/util/concurrent/locks/ReentrantLock$FairSync 14 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer selfInterrupt ()V 1 47 orig 264 8 206 245 83 0 0 0 0 0 160 75 22 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 121 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 8 0x2 0x2f 0x30005 0x0 0x229c5c0 0x2f 0x0 0x0 oops 1 4 java/lang/Thread
+ciMethodData java/util/concurrent/locks/ReentrantLock$FairSync tryAcquire (I)Z 2 5527 orig 264 8 206 245 83 0 0 0 0 96 71 249 27 0 0 0 0 48 3 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131 1 0 0 161 160 0 0 1 0 0 0 20 20 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 224 1 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 60 0x2 0x1414 0x50005 0x1 0x1a386f70 0x1413 0x0 0x0 0xa0007 0x16 0xf0 0x13fe 0xe0005 0x1 0x1a386f70 0x13fd 0x0 0x0 0x110007 0x126 0x150 0x12d9 0x170005 0x1 0x1a386f70 0x12d8 0x0 0x0 0x1a0007 0x3 0x100 0x12d8 0x1f0005 0x1 0x1a386f70 0x12d7 0x0 0x0 0x260005 0x0 0x1a386f70 0x16 0x0 0x0 0x290007 0x16 0x80 0x0 0x330007 0x0 0x30 0x0 0x3c0002 0x0 0x430005 0x0 0x0 0x0 0x0 0x0 oops 5 4 java/util/concurrent/locks/ReentrantLock$FairSync 14 java/util/concurrent/locks/ReentrantLock$FairSync 24 java/util/concurrent/locks/ReentrantLock$FairSync 34 java/util/concurrent/locks/ReentrantLock$FairSync 40 java/util/concurrent/locks/ReentrantLock$FairSync
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer hasQueuedPredecessors ()Z 2 5508 orig 264 8 206 245 83 0 0 0 0 208 181 75 22 0 0 0 0 208 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131 1 0 0 9 160 0 0 1 0 0 0 1 20 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 136 0 0 0 255 255 255 255 7 0 12 0 0 0 0 0 data 17 0xc0007 0xce7 0x88 0x71a 0x15e007 0x1 0x50 0x71a 0x1c0002 0x71a 0x1f0007 0x604 0x38 0x117 0x230003 0x118 0x18 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetWaitStatus (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;II)Z 2 17423 orig 264 8 206 245 83 0 0 0 0 0 194 75 22 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 105 26 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 48 0 0 0 255 255 255 255 5 0 9 0 0 0 0 0 data 6 0x90005 0x82 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer enq (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 2 6302 orig 264 8 206 245 83 0 0 0 0 56 153 75 22 0 0 0 0 232 1 0 0 168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 145 0 0 0 105 192 0 0 241 6 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 10 0 2 0 0 0 192 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 24 0x60007 0x1817 0x78 0xd2 0xe0002 0xd1 0x110002 0xd2 0x140007 0x9 0x68 0xcc 0x1f0003 0xcc 0x48 0x2a0002 0x1819 0x2d0007 0xa 0x20 0x1810 0x370003 0xde 0xffffffffffffff58 oops 0
+ciMethod org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactVisitor requireArtifactFiles ()Z 0 0 1 0 -1
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer transferForSignal (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 2 5380 orig 264 8 206 245 83 0 0 0 0 240 187 75 22 0 0 0 0 240 1 0 0 112 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 160 0 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 20 0x40002 0x1400 0x70007 0x1250 0x20 0x1b0 0xe0002 0x1250 0x180007 0x0 0x50 0x1250 0x1e0002 0x1250 0x210007 0x1250 0x30 0x0 0x280002 0x0 oops 0
+ciMethodData java/util/concurrent/locks/LockSupport unpark (Ljava/lang/Thread;)V 2 10480 orig 264 8 206 245 83 0 0 0 0 56 193 148 22 0 0 0 0 152 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 1 0 0 145 62 1 0 1 0 0 0 192 25 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 80 0 0 0 255 255 255 255 7 224 1 0 0 0 0 0 data 10 0x1e007 0x5 0x50 0x27d2 0x80005 0xa4 0x16bd61c0 0x272e 0x0 0x0 oops 1 6 sun/misc/Unsafe
+ciMethodData java/util/concurrent/locks/ReentrantLock$Sync isHeldExclusively ()Z 2 43456 orig 264 8 206 245 83 0 0 0 0 152 130 75 22 0 0 0 0 192 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 70 5 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 120 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 15 0x10005 0x0 0x1a386ec0 0xa28a 0x1a386f70 0x632 0x40002 0xa8b9 0x70007 0x8c17 0x38 0x1ca6 0xb0003 0x1ca6 0x18 oops 2 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 4 java/util/concurrent/locks/ReentrantLock$FairSync
+ciMethod org/gradle/internal/operations/DefaultBuildOperationQueue add (Lorg/gradle/internal/operations/BuildOperation;)V 665 1 3679 0 0
+ciMethod org/gradle/internal/operations/DefaultBuildOperationQueue$WorkerRunnable <init> (Lorg/gradle/internal/operations/DefaultBuildOperationQueue;)V 2049 1 4188 0 -1
+ciMethod org/gradle/internal/operations/DefaultBuildOperationQueue$WorkerRunnable <init> (Lorg/gradle/internal/operations/DefaultBuildOperationQueue;Lorg/gradle/internal/operations/DefaultBuildOperationQueue$1;)V 2049 1 4188 0 -1
+ciMethod org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvedArtifactSet$AsyncArtifactListener artifactAvailable (Lorg/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvableArtifact;)V 0 0 1 0 -1
+ciMethod org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvedArtifactSet$AsyncArtifactListener requireArtifactFiles ()Z 0 0 1 0 -1
+ciMethod org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ParallelResolveArtifactSet$VisitingSet$AsyncArtifactListenerAdapter requireArtifactFiles ()Z 2657 1 3320 0 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetTail (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 2 11978 orig 264 8 206 245 83 0 0 0 0 96 193 75 22 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 81 110 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 48 0 0 0 255 255 255 255 5 0 9 0 0 0 0 0 data 6 0x90005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject signalAll ()V 2 9029 orig 264 8 206 245 83 0 0 0 0 224 75 76 22 0 0 0 0 216 1 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 150 0 0 0 121 21 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 144 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 18 0x40005 0x0 0x1a386ec0 0x22af 0x0 0x0 0x70007 0x22af 0x30 0x0 0xe0002 0x0 0x180007 0x1f42 0x30 0x36e 0x1d0002 0x36e oops 1 2 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject doSignalAll (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 2 2200 orig 264 8 206 245 83 0 0 0 0 144 73 76 22 0 0 0 0 160 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 113 27 0 0 193 68 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 6 0 2 0 0 0 80 0 0 0 255 255 255 255 5 0 25 0 0 0 0 0 data 10 0x190005 0x497 0x1a386ec0 0x505 0x0 0x0 0x200007 0x62e 0xffffffffffffffd0 0x36e oops 1 2 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer$Node <init> ()V 1 217 orig 264 8 206 245 83 0 0 0 0 200 217 75 22 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 145 6 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xd1 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetHead (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 2 556 orig 264 8 206 245 83 0 0 0 0 192 192 75 22 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 49 17 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 48 0 0 0 255 255 255 255 5 0 9 0 0 0 0 0 data 6 0x90005 0x31 0x0 0x0 0x0 0x0 oops 0
+ciMethod org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvableArtifact isResolveSynchronously ()Z 0 0 1 0 -1
+ciMethod org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvableArtifact getFile ()Ljava/io/File; 0 0 1 0 -1
+ciMethod org/gradle/api/internal/artifacts/DefaultResolvedArtifact isResolveSynchronously ()Z 1993 1 6468 0 256
+ciMethod org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactBackedResolvedVariant$SingleArtifactSet startVisit (Lorg/gradle/internal/operations/BuildOperationQueue;Lorg/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvedArtifactSet$AsyncArtifactListener;)Lorg/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvedArtifactSet$Completion; 2657 1 7408 0 -1
+ciMethod org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactBackedResolvedVariant$SingleArtifactSet access$002 (Lorg/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactBackedResolvedVariant$SingleArtifactSet;Ljava/lang/Throwable;)Ljava/lang/Throwable; 0 0 1 0 -1
+ciMethod org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactBackedResolvedVariant$DownloadArtifactFile <init> (Lorg/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvableArtifact;Lorg/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactBackedResolvedVariant$SingleArtifactSet;Lorg/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvedArtifactSet$AsyncArtifactListener;)V 1993 1 7435 0 64
+ciMethod org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactBackedResolvedVariant$DownloadArtifactFile run (Lorg/gradle/internal/operations/BuildOperationContext;)V 1993 1 7433 0 15296
+ciMethod org/gradle/api/artifacts/component/ComponentArtifactIdentifier getComponentIdentifier ()Lorg/gradle/api/artifacts/component/ComponentIdentifier; 0 0 1 0 -1
+ciMethod org/gradle/internal/component/external/model/DefaultModuleComponentArtifactIdentifier getComponentIdentifier ()Lorg/gradle/api/artifacts/component/ModuleComponentIdentifier; 1041 1 130 0 0
+ciMethod org/gradle/internal/component/external/model/DefaultModuleComponentArtifactIdentifier getComponentIdentifier ()Lorg/gradle/api/artifacts/component/ComponentIdentifier; 3073 1 7623 0 32
+ciMethodData java/util/concurrent/ThreadPoolExecutor execute (Ljava/lang/Runnable;)V 2 4123 orig 264 8 206 245 83 0 0 0 0 32 100 146 22 0 0 0 0 112 4 0 0 168 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158 1 0 0 233 115 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 34 0 2 0 0 0 32 3 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 100 0x10007 0xe7d 0x30 0x0 0x80002 0x0 0x100005 0x0 0x1d22b130 0xe7d 0x0 0x0 0x150002 0xe7d 0x1c0007 0xdf5 0x80 0x88 0x220002 0x88 0x250007 0x0 0x20 0x88 0x2d0005 0x0 0x0 0x0 0x0 0x0 0x320002 0xdf5 0x350007 0x0 0x1c0 0xdf5 0x3d0005 0xd 0x1d22dda0 0x191 0x1d22de50 0xc57 0x420007 0x16e 0x170 0xc87 0x490005 0x0 0x1d22b130 0xc87 0x0 0x0 0x4e0002 0xc87 0x510007 0xc87 0xb8 0x0 0x560005 0x0 0x0 0x0 0x0 0x0 0x590007 0x0 0x68 0x0 0x5e0005 0x0 0x0 0x0 0x0 0x0 0x610003 0x0 0x58 0x650002 0xc87 0x680007 0xc7f 0x30 0x8 0x6e0002 0x8 0x720003 0xc87 0x78 0x780002 0x16e 0x7b0007 0x16e 0x50 0x0 0x800005 0x0 0x0 0x0 0x0 0x0 oops 4 8 java/util/concurrent/atomic/AtomicInteger 38 java/util/concurrent/SynchronousQueue 40 java/util/concurrent/LinkedBlockingQueue 48 java/util/concurrent/atomic/AtomicInteger
+ciMethodData java/util/concurrent/ThreadPoolExecutor addWorker (Ljava/lang/Runnable;Z)Z 1 705 orig 264 8 206 245 83 0 0 0 0 80 90 146 22 0 0 0 0 200 6 0 0 200 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 55 0 0 0 81 20 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 56 0 2 0 0 0 112 5 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 174 0x40005 0x187 0x1d22b130 0x103 0x0 0x0 0x90002 0x28a 0x100007 0x213 0xb0 0x77 0x150007 0x0 0x90 0x77 0x190007 0x0 0x70 0x77 0x200005 0x0 0x1d22de50 0x77 0x0 0x0 0x250007 0x0 0x20 0x77 0x2b0002 0x213 0x340007 0x0 0x78 0x213 0x3a0007 0x176 0x38 0x9d 0x410003 0x9d 0x18 0x480007 0x213 0x20 0x0 0x4f0002 0x213 0x520007 0x0 0x38 0x213 0x550003 0x213 0xa8 0x5c0005 0x0 0x0 0x0 0x0 0x0 0x610002 0x0 0x660007 0x0 0x38 0x0 0x690003 0x0 0xfffffffffffffde0 0x6c0003 0x0 0xfffffffffffffeb8 0x7d0002 0x213 0x8b0007 0x0 0x298 0x213 0x960005 0x0 0x20dfb760 0x213 0x0 0x0 0x9d0005 0x13a 0x1d22b130 0xd9 0x0 0x0 0xa00002 0x213 0xa70007 0x213 0x60 0x0 0xac0007 0x0 0x120 0x0 0xb00007 0x0 0x100 0x0 0xb50005 0x13a 0x229c5c0 0xd9 0x0 0x0 0xb80007 0x213 0x30 0x0 0xbf0002 0x0 0xc90005 0x0 0x1da3bfc0 0x213 0x0 0x0 0xd10005 0x0 0x1da3bfc0 0x213 0x0 0x0 0xdc0007 0x19 0x20 0x1fa 0xea0005 0x0 0x20dfb760 0x213 0x0 0x0 0xed0003 0x213 0x48 0xf40005 0x0 0x0 0x0 0x0 0x0 0xfc0007 0x0 0x50 0x213 0x1010005 0x0 0x229c5c0 0x213 0x0 0x0 0x1070007 0x213 0x78 0x0 0x10d0002 0x0 0x1100003 0x0 0x48 0x1160007 0x0 0x30 0x0 0x11c0002 0x0 oops 9 2 java/util/concurrent/atomic/AtomicInteger 22 java/util/concurrent/LinkedBlockingQueue 82 java/util/concurrent/locks/ReentrantLock 88 java/util/concurrent/atomic/AtomicInteger 108 java/lang/Thread 120 java/util/HashSet 126 java/util/HashSet 136 java/util/concurrent/locks/ReentrantLock 155 java/lang/Thread
+ciMethodData java/util/concurrent/ThreadPoolExecutor tryTerminate ()V 2 1090 orig 264 8 206 245 83 0 0 0 0 152 81 146 22 0 0 0 0 16 5 0 0 176 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 0 0 0 209 32 0 0 41 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 44 0 2 0 0 0 200 3 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 121 0x40005 0x205 0x1d22b130 0x21a 0x0 0x0 0x90002 0x41f 0xc0007 0x22 0xd0 0x3fd 0x120002 0x3fd 0x150007 0x117 0xa0 0x2e6 0x190002 0x2e6 0x1c0007 0x0 0x70 0x2e6 0x230005 0x42 0x1d22de50 0xa0 0x1d22dda0 0x204 0x280007 0x2e6 0x20 0x0 0x2d0002 0x2e6 0x300007 0x104 0x30 0x1e2 0x350002 0x1e2 0x3f0005 0x0 0x20dfb760 0x104 0x0 0x0 0x4a0002 0x104 0x4d0005 0x87 0x1d22b130 0x7d 0x0 0x0 0x500007 0x5 0x178 0xff 0x540005 0x0 0x1d5b4f60 0xeb 0x20a0bc80 0x14 0x5e0002 0xff 0x610005 0x83 0x1d22b130 0x7c 0x0 0x0 0x680005 0x0 0x20dfea10 0xff 0x0 0x0 0x6d0003 0xff 0x88 0x780002 0x0 0x7b0005 0x0 0x0 0x0 0x0 0x0 0x820005 0x0 0x0 0x0 0x0 0x0 0x8a0005 0x0 0x20dfb760 0xff 0x0 0x0 0x8f0005 0x0 0x20dfb760 0x5 0x0 0x0 0x920003 0x5 0x48 0x980005 0x0 0x0 0x0 0x0 0x0 0x9e0003 0x5 0xfffffffffffffc50 oops 11 2 java/util/concurrent/atomic/AtomicInteger 26 java/util/concurrent/LinkedBlockingQueue 28 java/util/concurrent/SynchronousQueue 44 java/util/concurrent/locks/ReentrantLock 52 java/util/concurrent/atomic/AtomicInteger 62 java/util/concurrent/ThreadPoolExecutor 64 java/util/concurrent/ScheduledThreadPoolExecutor 70 java/util/concurrent/atomic/AtomicInteger 76 java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject 99 java/util/concurrent/locks/ReentrantLock 105 java/util/concurrent/locks/ReentrantLock
+ciMethodData java/util/concurrent/ThreadPoolExecutor decrementWorkerCount ()V 1 420 orig 264 8 206 245 83 0 0 0 0 112 79 146 22 0 0 0 0 168 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 0 0 0 97 12 0 0 121 12 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 96 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 12 0x50005 0x1 0x1d22b130 0x18c 0x0 0x0 0x80002 0x18d 0xb0007 0x3 0xffffffffffffffc0 0x18d oops 1 2 java/util/concurrent/atomic/AtomicInteger
+ciMethodData java/util/concurrent/ThreadPoolExecutor compareAndDecrementWorkerCount (I)Z 1 444 orig 264 8 206 245 83 0 0 0 0 208 78 146 22 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 0 0 0 9 13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 5 0 8 0 0 0 0 0 data 6 0x80005 0x1 0x1d22b130 0x1a2 0x0 0x0 oops 1 2 java/util/concurrent/atomic/AtomicInteger
+ciMethodData java/util/concurrent/atomic/AtomicInteger compareAndSet (II)Z 2 1564 orig 264 8 206 245 83 0 0 0 0 72 101 46 22 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 0 0 0 193 45 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 48 0 0 0 255 255 255 255 5 0 9 0 0 0 0 0 data 6 0x90005 0xad 0x0 0x0 0x0 0x0 oops 0
+ciMethodData org/gradle/internal/concurrent/ManagedExecutorImpl trackedCommand (Ljava/lang/Runnable;)Ljava/lang/Runnable; 2 4113 orig 264 8 206 245 83 0 0 0 0 176 21 139 22 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 1 0 0 129 115 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0xe70 oops 0
+ciMethodData org/gradle/internal/concurrent/ManagedExecutorImpl$1 <init> (Lorg/gradle/internal/concurrent/ManagedExecutorImpl;Ljava/lang/Runnable;)V 2 4113 orig 264 8 206 245 83 0 0 0 0 216 117 147 22 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 1 0 0 129 115 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 11 0 0 0 0 0 data 2 0xb0002 0xe70 oops 0
+ciMethodData org/gradle/internal/concurrent/ManagedExecutorImpl execute (Ljava/lang/Runnable;)V 2 4110 orig 264 8 206 245 83 0 0 0 0 0 21 139 22 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158 1 0 0 129 115 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 96 0 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 12 0x60005 0x0 0x20dfeac0 0xe70 0x0 0x0 0x90005 0x0 0x1d5b4f60 0xe70 0x0 0x0 oops 2 2 org/gradle/internal/concurrent/DefaultExecutorFactory$TrackedManagedExecutor 8 java/util/concurrent/ThreadPoolExecutor
+ciMethodData org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactBackedResolvedVariant$SingleArtifactSet startVisit (Lorg/gradle/internal/operations/BuildOperationQueue;Lorg/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvedArtifactSet$AsyncArtifactListener;)Lorg/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvedArtifactSet$Completion; 2 7408 orig 264 8 206 245 83 0 0 0 0 24 99 221 34 0 0 0 0 144 2 0 0 176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 76 1 0 0 33 221 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 56 1 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 39 0x10005 0x0 0x21b69860 0xbac 0x21b69910 0xff8 0x60007 0x2eb 0x108 0x18b9 0xd0005 0x0 0x21b699c0 0x18b9 0x0 0x0 0x120007 0x589 0x78 0x1330 0x1f0002 0x1330 0x230005 0x0 0x21b69a70 0x1330 0x0 0x0 0x260003 0x1334 0x58 0x340002 0x589 0x370005 0x0 0x21b69b20 0x589 0x0 0x0 oops 5 2 org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ParallelResolveArtifactSet$VisitingSet$AsyncArtifactListenerAdapter 4 org/gradle/api/internal/artifacts/transform/TransformingAsyncArtifactListener 12 org/gradle/api/internal/artifacts/DefaultResolvedArtifact 24 org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactBackedResolvedVariant$DownloadArtifactFile 35 org/gradle/internal/operations/DefaultBuildOperationQueue
+ciMethodData org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ParallelResolveArtifactSet$VisitingSet$AsyncArtifactListenerAdapter requireArtifactFiles ()Z 2 3320 orig 264 8 206 245 83 0 0 0 0 8 96 154 34 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 1 0 0 97 93 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x48a 0x21b6e580 0x2eb 0x21b6e630 0x437 oops 2 2 org/gradle/api/internal/artifacts/ivyservice/DefaultLenientConfiguration$LenientArtifactCollectingVisitor 4 org/gradle/api/internal/artifacts/ivyservice/ResolvedFilesCollectingVisitor
+ciMethodData org/gradle/api/internal/artifacts/DefaultResolvedArtifact isResolveSynchronously ()Z 2 6468 orig 264 8 206 245 83 0 0 0 0 184 72 221 34 0 0 0 0 32 2 0 0 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 249 0 0 0 89 194 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 216 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 27 0x40005 0x0 0x21d6a750 0x184b 0x0 0x0 0x90004 0xffffffffffffe7b5 0x21d6a800 0xa1 0x0 0x0 0xc0007 0x184b 0x20 0x0 0x150007 0x12c2 0x40 0x589 0x1c0007 0x589 0x38 0x0 0x200003 0x12c2 0x18 oops 2 2 org/gradle/internal/component/external/model/DefaultModuleComponentArtifactIdentifier 8 org/gradle/internal/component/external/model/DefaultModuleComponentIdentifier
+ciMethodData org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactBackedResolvedVariant$DownloadArtifactFile <init> (Lorg/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvableArtifact;Lorg/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactBackedResolvedVariant$SingleArtifactSet;Lorg/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ResolvedArtifactSet$AsyncArtifactListener;)V 2 7435 orig 264 8 206 245 83 0 0 0 0 8 142 221 34 0 0 0 0 72 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 249 0 0 0 145 224 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x1c12 oops 0
+ciMethodData org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactBackedResolvedVariant$DownloadArtifactFile run (Lorg/gradle/internal/operations/BuildOperationContext;)V 2 7433 orig 264 8 206 245 83 0 0 0 0 0 143 221 34 0 0 0 0 40 2 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 249 0 0 0 129 224 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 216 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 27 0x40005 0x0 0x21b699c0 0x1c11 0x0 0x0 0x120005 0x0 0x21b69860 0xb59 0x21b69910 0x10b2 0x180007 0x130c 0x50 0x905 0x1f0005 0x0 0x1b1ed040 0x8ff 0x0 0x0 0x240003 0x1c0d 0x28 0x2d0002 0x0 oops 4 2 org/gradle/api/internal/artifacts/DefaultResolvedArtifact 8 org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ParallelResolveArtifactSet$VisitingSet$AsyncArtifactListenerAdapter 10 org/gradle/api/internal/artifacts/transform/TransformingAsyncArtifactListener 18 org/gradle/internal/operations/DefaultBuildOperationExecutor$DefaultBuildOperationContext
+ciMethodData org/gradle/internal/operations/DefaultBuildOperationQueue add (Lorg/gradle/internal/operations/BuildOperation;)V 2 3679 orig 264 8 206 245 83 0 0 0 0 24 88 153 34 0 0 0 0 136 3 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 83 0 0 0 97 112 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 22 0 2 0 0 0 56 2 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 71 0x40005 0x0 0x20dfb760 0xe0c 0x0 0x0 0xe0007 0xe0c 0x30 0x0 0x170002 0x0 0x220007 0xe0c 0x50 0x0 0x290005 0x0 0x0 0x0 0x0 0x0 0x320005 0x0 0x20dfe960 0xe0c 0x0 0x0 0x460005 0x0 0x20dfea10 0xe0c 0x0 0x0 0x4f0007 0xe0c 0x70 0x0 0x5a0005 0x0 0x0 0x0 0x0 0x0 0x610007 0x0 0x60 0x0 0x6e0002 0xe0c 0x710005 0x0 0x20dfeac0 0xe0c 0x0 0x0 0x7a0005 0x0 0x20dfb760 0xe0c 0x0 0x0 0x7d0003 0xe0c 0x48 0x850005 0x0 0x0 0x0 0x0 0x0 oops 5 2 java/util/concurrent/locks/ReentrantLock 24 java/util/LinkedList 30 java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject 52 org/gradle/internal/concurrent/DefaultExecutorFactory$TrackedManagedExecutor 58 java/util/concurrent/locks/ReentrantLock
+ciMethodData org/gradle/internal/component/external/model/DefaultModuleComponentArtifactIdentifier getComponentIdentifier ()Lorg/gradle/api/artifacts/component/ComponentIdentifier; 2 7623 orig 264 8 206 245 83 0 0 0 0 88 93 240 34 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 57 226 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 6 0x10005 0x0 0x21d6a750 0x1c47 0x0 0x0 oops 1 2 org/gradle/internal/component/external/model/DefaultModuleComponentArtifactIdentifier
+ciMethod org/gradle/api/internal/artifacts/transform/TransformingAsyncArtifactListener requireArtifactFiles ()Z 1025 1 128 0 0
+ciMethodData org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactBackedResolvedVariant$SingleArtifactSet access$002 (Lorg/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/ArtifactBackedResolvedVariant$SingleArtifactSet;Ljava/lang/Throwable;)Ljava/lang/Throwable; 1 0 orig 264 8 206 245 83 0 0 0 0 240 102 221 34 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/concurrent/ThreadPoolExecutor workerCountOf (I)I 2 20461 orig 264 8 206 245 83 0 0 0 0 48 75 146 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 154 1 0 0 153 114 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/concurrent/ThreadPoolExecutor isRunning (I)Z 2 8693 orig 264 8 206 245 83 0 0 0 0 144 77 146 22 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 1 0 0 201 5 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 7 0x10007 0x425 0x38 0x1c94 0x50003 0x1c94 0x18 oops 0
+ciMethodData org/gradle/internal/operations/DefaultBuildOperationQueue$WorkerRunnable <init> (Lorg/gradle/internal/operations/DefaultBuildOperationQueue;Lorg/gradle/internal/operations/DefaultBuildOperationQueue$1;)V 2 4216 orig 264 8 206 245 83 0 0 0 0 120 201 153 34 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 193 123 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0xf78 oops 0
+ciMethodData java/util/concurrent/ThreadPoolExecutor runStateOf (I)I 2 23760 orig 264 8 206 245 83 0 0 0 0 152 74 146 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 129 218 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/concurrent/ThreadPoolExecutor addWorkerFailed (Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V 1 0 orig 264 8 206 245 83 0 0 0 0 32 91 146 22 0 0 0 0 136 2 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 56 1 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 39 0x60005 0x0 0x0 0x0 0x0 0x0 0xa0007 0x0 0x50 0x0 0x120005 0x0 0x0 0x0 0x0 0x0 0x170002 0x0 0x1b0005 0x0 0x0 0x0 0x0 0x0 0x1f0005 0x0 0x0 0x0 0x0 0x0 0x220003 0x0 0x48 0x270005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/lang/ThreadGroup add (Ljava/lang/Thread;)V 1 743 orig 264 8 206 245 83 0 0 0 0 160 51 33 22 0 0 0 0 96 2 0 0 152 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 49 15 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 16 1 0 0 255 255 255 255 7 0 8 0 0 0 0 0 data 34 0x80007 0x1e6 0x30 0x0 0xf0002 0x0 0x170007 0x1e6 0x38 0x0 0x220003 0x0 0x78 0x2e0007 0x1e5 0x60 0x1 0x3c0002 0x1 0x3f0004 0x0 0x1b1f02d0 0x1 0x0 0x0 0x4e0004 0x0 0x1b1f0320 0xc 0x1b1f03d0 0xc 0x650003 0x1e6 0x18 oops 3 21 [Ljava/lang/Thread; 27 com/android/utils/GrabProcessOutput$1 29 com/android/utils/GrabProcessOutput$2
+ciMethodData java/lang/Thread start ()V 1 740 orig 264 8 206 245 83 0 0 0 0 160 229 32 22 0 0 0 0 160 2 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 33 15 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 20 0 2 0 0 0 88 1 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 43 0x40007 0x1e4 0x30 0x0 0xb0002 0x0 0x140005 0x0 0x229c650 0x1e4 0x0 0x0 0x1a0002 0x1e4 0x200007 0x1e4 0x50 0x0 0x280005 0x0 0x0 0x0 0x0 0x0 0x2b0003 0x1e4 0x98 0x2f0003 0x0 0x80 0x340007 0x0 0x50 0x0 0x3c0005 0x0 0x0 0x0 0x0 0x0 0x3f0003 0x0 0x18 oops 1 8 java/lang/ThreadGroup
+ciMethodData java/util/concurrent/ThreadPoolExecutor compareAndIncrementWorkerCount (I)Z 1 579 orig 264 8 206 245 83 0 0 0 0 48 78 146 22 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 25 10 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 8 0 0 0 0 0 data 6 0x80005 0x0 0x1d22b130 0x143 0x0 0x0 oops 1 2 java/util/concurrent/atomic/AtomicInteger
+ciMethodData java/util/concurrent/ThreadPoolExecutor$Worker <init> (Ljava/util/concurrent/ThreadPoolExecutor;Ljava/lang/Runnable;)V 1 579 orig 264 8 206 245 83 0 0 0 0 24 161 148 22 0 0 0 0 248 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 25 10 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 160 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 20 0x60002 0x143 0xb0005 0x0 0x1a38aba0 0x143 0x0 0x0 0x150005 0x0 0x1d5b4f60 0x136 0x20a0bc80 0xd 0x190005 0x0 0x20a0bd30 0x12f 0x20a0bde0 0x14 oops 5 4 java/util/concurrent/ThreadPoolExecutor$Worker 10 java/util/concurrent/ThreadPoolExecutor 12 java/util/concurrent/ScheduledThreadPoolExecutor 16 org/gradle/internal/concurrent/ThreadFactoryImpl 18 java/util/concurrent/Executors$DefaultThreadFactory
+instanceKlass com/android/build/gradle/tasks/ProcessApplicationManifest$$Lambda$1118
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$1117
+instanceKlass com/android/builder/files/IncrementalRelativeFileSets$$Lambda$1116
+instanceKlass com/android/builder/files/IncrementalRelativeFileSets$$Lambda$1115
+instanceKlass org/gradle/internal/execution/history/changes/NonIncrementalInputChanges$RebuildFileChange
+instanceKlass org/gradle/internal/execution/history/changes/NonIncrementalInputChanges$$Lambda$1114
+instanceKlass org/gradle/internal/execution/history/changes/NonIncrementalInputChanges$$Lambda$1113
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$1112
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$1111
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$1110
+instanceKlass org/gradle/internal/execution/steps/CleanupOutputsStep$1
+instanceKlass org/gradle/internal/execution/steps/CleanupOutputsStep$$Lambda$1109
+instanceKlass com/android/build/gradle/internal/tasks/StripDebugSymbolsDelegate
+instanceKlass com/android/builder/merge/RenameIncrementalFileMergerInput$$Lambda$1108
+instanceKlass com/android/builder/merge/MergeOutputWriters$1
+instanceKlass com/android/build/gradle/internal/tasks/MergeJavaResourcesDelegate$run$2$renamedInput$2
+instanceKlass com/android/build/gradle/internal/tasks/MergeJavaResourcesDelegate$run$2$renamedInput$1
+instanceKlass com/android/build/gradle/internal/tasks/MergeJavaResourcesDelegate$1
+instanceKlass com/android/tools/r8/m/a/b/n/a
+instanceKlass com/android/tools/r8/m/a/b/g
+instanceKlass org/apache/commons/io/Charsets
+instanceKlass org/apache/commons/io/IOUtils
+instanceKlass org/apache/commons/io/filefilter/IOFileFilter
+instanceKlass org/apache/commons/io/FileUtils
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$1107
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$1106
+instanceKlass sun/nio/fs/WindowsUserPrincipals$User
+instanceKlass java/nio/file/attribute/UserPrincipal
+instanceKlass com/android/tools/r8/n/a/a/a/g/a
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$1105
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$1104
+instanceKlass sun/nio/fs/WindowsUserPrincipals
+instanceKlass java/nio/file/attribute/AclEntry$Builder
+instanceKlass java/nio/file/attribute/AclEntry
+instanceKlass sun/nio/fs/AbstractAclFileAttributeView
+instanceKlass java/nio/file/attribute/DosFileAttributeView
+instanceKlass java/nio/file/attribute/AclFileAttributeView
+instanceKlass java/nio/file/attribute/FileOwnerAttributeView
+instanceKlass com/android/builder/utils/SynchronizedFile$$Lambda$1103
+instanceKlass com/android/build/gradle/internal/tasks/ValidateSigningTask$createDefaultDebugKeystoreIfNeeded$1
+instanceKlass com/android/builder/utils/ExceptionConsumer
+instanceKlass com/android/build/gradle/internal/tasks/CheckDuplicatesParams
+instanceKlass com/android/build/gradle/internal/tasks/CheckDuplicatesRunnable
+instanceKlass kotlin/streams/jdk8/StreamsKt
+instanceKlass com/android/build/gradle/internal/tasks/CheckDuplicateClassesDelegateKt$extractClasses$1$2
+instanceKlass com/android/build/gradle/internal/tasks/CheckDuplicateClassesDelegateKt$extractClasses$1$1
+instanceKlass com/android/build/gradle/internal/tasks/CheckDuplicateClassesDelegateKt
+instanceKlass java/util/concurrent/locks/ReentrantReadWriteLock$Sync$HoldCounter
+instanceKlass com/android/ide/common/workers/ExecutorServiceAdapter$submit$submission$1
+instanceKlass com/android/build/gradle/internal/tasks/ExtractClassesParams
+instanceKlass com/android/build/gradle/internal/tasks/ExtractClassesRunnable
+instanceKlass com/android/build/gradle/internal/workeractions/WorkerActionServiceRegistry$Manager$$special$$inlined$let$lambda$1
+instanceKlass com/android/build/gradle/internal/tasks/CheckDuplicateClassesDelegate$ArtifactClassesKey
+instanceKlass com/android/build/gradle/internal/workeractions/WorkerActionServiceRegistry$Manager
+instanceKlass com/android/build/gradle/internal/tasks/CheckDuplicateClassesDelegate
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$1102
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$1101
+instanceKlass com/android/builder/merge/IncrementalFileMergerState$Builder$$Lambda$1100
+instanceKlass com/android/builder/merge/StreamMergeAlgorithms$$Lambda$1099
+instanceKlass com/android/builder/merge/StreamMergeAlgorithms$$Lambda$1098
+instanceKlass com/android/build/gradle/internal/tasks/MergeJavaResourcesDelegate$WhenMappings
+instanceKlass com/android/builder/merge/IncrementalFileMergerOutputs$1$$Lambda$1097
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$1096
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions$getAction$3
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions$getAction$2
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions$getAction$1
+instanceKlass com/android/utils/ImmutableCollectors$$Lambda$1095
+instanceKlass com/android/utils/ImmutableCollectors$$Lambda$1094
+instanceKlass com/android/utils/ImmutableCollectors$$Lambda$1093
+instanceKlass com/android/utils/ImmutableCollectors$$Lambda$1092
+instanceKlass com/android/utils/ImmutableCollectors
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInputs$$Lambda$1091
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$1090
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$1089
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$1088
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$1087
+instanceKlass sun/nio/fs/AbstractPath$1
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$$Lambda$1086
+instanceKlass com/android/build/gradle/internal/pipeline/OriginalStream$$Lambda$1085
+instanceKlass com/android/build/gradle/internal/pipeline/OriginalStream$$Lambda$1084
+instanceKlass com/android/build/gradle/internal/pipeline/OriginalStream$$Lambda$1083
+instanceKlass com/android/builder/files/RelativeFiles
+instanceKlass com/android/build/api/transform/JarInput
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$1082
+instanceKlass com/android/build/gradle/internal/pipeline/OriginalStream$$Lambda$1081
+instanceKlass com/android/build/gradle/internal/pipeline/TransformTask$$Lambda$1080
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$1079
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$1078
+instanceKlass com/android/builder/merge/IncrementalFileMergerState$Builder
+instanceKlass com/android/builder/merge/IncrementalFileMerger
+instanceKlass com/android/builder/merge/IncrementalFileMergerState
+instanceKlass com/android/builder/merge/DelegateIncrementalFileMergerOutput
+instanceKlass com/android/build/gradle/internal/tasks/MergeJavaResourcesDelegateKt$containsHighPriorityScope$1
+instanceKlass com/android/build/gradle/internal/tasks/MergeJavaResourcesDelegateKt
+instanceKlass com/android/builder/merge/IncrementalFileMergerOutputs$1
+instanceKlass com/android/builder/merge/IncrementalFileMergerOutput
+instanceKlass com/android/builder/merge/IncrementalFileMergerOutputs
+instanceKlass com/android/builder/merge/MergeOutputWriters$2
+instanceKlass com/android/builder/merge/MergeOutputWriter
+instanceKlass com/android/builder/merge/MergeOutputWriters
+instanceKlass com/android/builder/merge/StreamMergeAlgorithms$$Lambda$1077
+instanceKlass com/android/builder/merge/StreamMergeAlgorithm
+instanceKlass com/android/builder/merge/StreamMergeAlgorithms
+instanceKlass com/android/build/gradle/internal/tasks/MergeJavaResourcesDelegate$run$mergeTransformAlgorithm$1
+instanceKlass com/android/builder/merge/DelegateIncrementalFileMergerInput
+instanceKlass com/android/build/gradle/internal/tasks/MergeJavaResourcesDelegate$run$inputFilter$1
+instanceKlass com/android/build/gradle/internal/tasks/MergeJavaResourcesDelegate$run$$inlined$sortBy$1
+instanceKlass com/android/build/gradle/internal/matcher/FileNameWithPrefixPathMatcher$Companion$factory$1
+instanceKlass com/android/build/gradle/internal/matcher/FileNameWithPrefixPathMatcher$Companion
+instanceKlass com/android/build/gradle/internal/matcher/FileNameWithPrefixPathMatcher
+instanceKlass com/android/build/gradle/internal/matcher/FileNameWithSuffixPathMatcher$Companion$factory$1
+instanceKlass com/android/build/gradle/internal/matcher/FileNameWithSuffixPathMatcher$Companion
+instanceKlass com/android/build/gradle/internal/matcher/FileNameWithSuffixPathMatcher
+instanceKlass com/android/build/gradle/internal/matcher/FileExtensionWithPrefixPathMatcher$Companion$factory$1
+instanceKlass com/android/build/gradle/internal/matcher/FileExtensionWithPrefixPathMatcher$Companion
+instanceKlass com/android/build/gradle/internal/matcher/FileExtensionWithPrefixPathMatcher
+instanceKlass com/android/build/gradle/internal/matcher/FolderInHierarchyPathMatcher$Companion$factory$1
+instanceKlass com/android/build/gradle/internal/matcher/FolderInHierarchyPathMatcher$Companion
+instanceKlass com/android/build/gradle/internal/matcher/FolderInHierarchyPathMatcher
+instanceKlass com/android/build/gradle/internal/matcher/NoWildcardPathMatcher$Companion$factory$1
+instanceKlass com/android/build/gradle/internal/matcher/NoWildcardPathMatcher$Companion
+instanceKlass com/android/build/gradle/internal/matcher/NoWildcardPathMatcher
+instanceKlass com/android/build/gradle/internal/matcher/GlobPathMatcherFactory$Companion
+instanceKlass com/android/build/gradle/internal/matcher/GlobPathMatcherFactory
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions
+instanceKlass com/android/build/gradle/internal/tasks/MergeJavaResourcesDelegate
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalFileMergerTaskUtils$toNonIncrementalInput$1
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalFileMergerTaskUtils$toInputs$$inlined$let$lambda$1
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInput$$Lambda$1076
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInput$$Lambda$1075
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInput$$Lambda$1074
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInput
+instanceKlass com/android/builder/merge/IncrementalFileMergerInput
+instanceKlass com/android/builder/merge/OpenableCloseable
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInputs$$Lambda$1073
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInputs$$Lambda$1072
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInputs
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalFileMergerTaskUtils$toInputs$1
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalFileMergerTaskUtils
+instanceKlass com/android/build/gradle/internal/tasks/MergeJavaResRunnable$Params
+instanceKlass com/android/build/gradle/internal/tasks/MergeJavaResRunnable
+instanceKlass com/google/common/primitives/Booleans
+instanceKlass com/google/common/collect/MapMakerInternalMap$WeakKeyStrongValueEntry$Helper
+instanceKlass com/google/common/collect/Ordering$ArbitraryOrderingHolder
+instanceKlass com/google/common/collect/ComparisonChain
+instanceKlass org/gradle/api/internal/tasks/compile/Member
+instanceKlass org/gradle/api/internal/tasks/compile/ApiClassExtractor
+instanceKlass org/gradle/api/internal/changedetection/state/JarHasher$RelativePathFactory
+instanceKlass java/nio/file/SimpleFileVisitor
+instanceKlass com/android/builder/internal/compiler/DirectoryWalker$Builder$$Lambda$1071
+instanceKlass com/android/builder/internal/compiler/DirectoryWalker$Builder$$Lambda$1070
+instanceKlass com/android/builder/internal/compiler/DirectoryWalker$Builder$$Lambda$1069
+instanceKlass com/android/builder/internal/compiler/DirectoryWalker$ExtensionSelector
+instanceKlass com/android/builder/internal/compiler/DirectoryWalker$Builder
+instanceKlass com/android/builder/internal/compiler/DirectoryWalker
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass com/android/build/gradle/tasks/ShaderCompile$$Lambda$1068
+instanceKlass com/android/build/gradle/tasks/ShaderCompile$$Lambda$1067
+instanceKlass com/android/manifmerger/XmlNode$1
+instanceKlass com/android/build/gradle/tasks/JavaPreCompileTask$PreCompileRunnable$$Lambda$1066
+instanceKlass com/android/build/gradle/tasks/JavaPreCompileTask$PreCompileRunnable$$Lambda$1065
+instanceKlass com/android/build/gradle/internal/dependency/ArtifactCollectionWithExtraArtifact$ExtraComponentIdentifierImpl
+instanceKlass com/android/build/gradle/internal/dependency/ArtifactCollectionWithExtraArtifact$ExtraComponentIdentifier
+instanceKlass com/android/build/gradle/internal/dependency/ArtifactCollectionWithExtraArtifact$ExtraComponentArtifactIdentifier
+instanceKlass com/android/build/gradle/tasks/JavaPreCompileTask$$Lambda$1064
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/build/gradle/tasks/SerializableArtifact
+instanceKlass com/android/build/gradle/tasks/JavaPreCompileTask$PreCompileParams
+instanceKlass com/android/build/gradle/tasks/JavaPreCompileTask$PreCompileRunnable
+instanceKlass org/gradle/internal/resolve/RejectedVersion
+instanceKlass org/jetbrains/kotlin/kapt/idea/KaptGradleModelImpl
+instanceKlass com/android/java/model/impl/ArtifactModelImpl$Companion
+instanceKlass com/android/java/model/impl/ArtifactModelImpl
+instanceKlass org/jetbrains/plugins/gradle/tooling/internal/ClasspathEntryModelImpl
+instanceKlass org/jetbrains/plugins/gradle/model/ExternalProjectDependency
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/DependencyTraverser$Itr
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/DependencyTraverser
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/resolve/ExternalDepsResolutionResult
+instanceKlass org/gradle/internal/impldep/com/google/common/base/Objects
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/FluentIterable
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/UnmodifiableIterator
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/TreeTraverser
+instanceKlass org/gradle/internal/impldep/com/google/common/io/ByteSource
+instanceKlass org/gradle/internal/impldep/com/google/common/io/InputSupplier
+instanceKlass org/gradle/internal/impldep/com/google/common/io/ByteSink
+instanceKlass org/gradle/internal/impldep/com/google/common/io/OutputSupplier
+instanceKlass org/gradle/internal/impldep/com/google/common/io/LineProcessor
+instanceKlass org/gradle/internal/impldep/com/google/common/io/Files
+instanceKlass org/jetbrains/plugins/gradle/DefaultExternalDependencyId
+instanceKlass org/jetbrains/plugins/gradle/ExternalDependencyId
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/AbstractMapBasedMultimap$WrappedCollection$WrappedIterator
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/resolve/DependencyResultsTransformer$AttributesBasedKey
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/resolve/DependencyResultsTransformer$ComponentResultKey
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/resolve/DependencyResultsTransformer
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/ModuleIdentifierImpl
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/ModuleComponentIdentifierImpl
+instanceKlass org/gradle/internal/impldep/com/google/common/base/Preconditions
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/Multiset
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/AbstractMultimap
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/ListMultimap
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/resolve/ArtifactQueryResolver
+instanceKlass org/jetbrains/plugins/gradle/model/FileCollectionDependency
+instanceKlass org/jetbrains/plugins/gradle/model/AbstractExternalDependency
+instanceKlass org/jetbrains/plugins/gradle/model/ExternalLibraryDependency
+instanceKlass org/jetbrains/plugins/gradle/model/ExternalDependency
+instanceKlass org/gradle/internal/impldep/com/google/common/base/Function
+instanceKlass org/gradle/internal/impldep/com/google/common/base/Predicate
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/Multimap
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/resolve/DependencyResolverImpl
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/DependencyResolver
+instanceKlass org/jetbrains/plugins/gradle/tooling/internal/BuildScriptClasspathModelImpl
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/JavaPluginUtil
+instanceKlass com/android/java/model/impl/GradlePluginModelImpl$Companion
+instanceKlass com/android/java/model/impl/GradlePluginModelImpl
+instanceKlass com/android/build/gradle/internal/tasks/DexMergingTask$CreationAction$getMergingThreshold$1
+instanceKlass org/jetbrains/plugins/gradle/model/BuildScriptClasspathModel
+instanceKlass org/jetbrains/kotlin/kapt/idea/KaptGradleModel
+instanceKlass com/android/java/model/GradlePluginModel
+instanceKlass com/android/java/model/ArtifactModel
+instanceKlass com/android/java/model/JavaProject
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/SourceSetCachedFinder
+instanceKlass org/jetbrains/plugins/gradle/model/ClasspathEntryModel
+instanceKlass org/jetbrains/plugins/gradle/tooling/ErrorMessageBuilder
+instanceKlass org/jetbrains/plugins/gradle/tooling/builder/ModelBuildScriptClasspathBuilderImpl
+instanceKlass org/jetbrains/plugins/gradle/tooling/ModelBuilderService
+instanceKlass BuildScriptClasspathModelBuilder
+instanceKlass BuildScriptClasspathModelBuilderPlugin
+instanceKlass org/jetbrains/kotlin/gradle/AbstractKotlinGradleModelBuilder$Companion
+instanceKlass org/jetbrains/plugins/gradle/tooling/ErrorMessageBuilder
+instanceKlass org/jetbrains/kotlin/gradle/AbstractKotlinGradleModelBuilder
+instanceKlass org/jetbrains/plugins/gradle/tooling/ModelBuilderService
+instanceKlass KaptModelBuilder
+instanceKlass KaptModelBuilderPlugin
+instanceKlass com/android/java/model/builder/GradlePluginModelBuilder
+instanceKlass com/android/java/model/builder/ArtifactModelBuilder
+instanceKlass com/android/java/model/builder/JavaModelBuilder$Companion
+instanceKlass com/android/java/model/builder/JavaModelBuilder
+instanceKlass com/android/java/model/builder/JavaLibraryPlugin
+instanceKlass com/android/tools/build/apkzlib/sign/SigningExtension$1$$Lambda$1063
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$1062
+instanceKlass sun/nio/fs/WindowsFileCopy
+instanceKlass com/android/ide/common/resources/MergedAssetWriter$1
+instanceKlass com/android/ide/common/resources/MergedAssetWriter$AssetWorkParameters
+instanceKlass com/android/ide/common/resources/MergedAssetWriter$AssetWorkAction
+instanceKlass com/android/ide/common/blame/MergingLogPersistUtil$$Lambda$1061
+instanceKlass com/android/ide/common/blame/SourceFileJsonTypeAdapter$1
+instanceKlass com/android/ide/common/resources/MergedResourceWriter$1
+instanceKlass org/jetbrains/kotlin/kapt/idea/KaptGradleModelImpl
+instanceKlass com/android/java/model/impl/ArtifactModelImpl$Companion
+instanceKlass com/android/java/model/impl/ArtifactModelImpl
+instanceKlass org/jetbrains/plugins/gradle/tooling/internal/ClasspathEntryModelImpl
+instanceKlass org/jetbrains/plugins/gradle/model/ExternalProjectDependency
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/DependencyTraverser$Itr
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/DependencyTraverser
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/resolve/ExternalDepsResolutionResult
+instanceKlass org/gradle/internal/impldep/com/google/common/base/Objects
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/FluentIterable
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/UnmodifiableIterator
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/TreeTraverser
+instanceKlass org/gradle/internal/impldep/com/google/common/io/ByteSource
+instanceKlass org/gradle/internal/impldep/com/google/common/io/InputSupplier
+instanceKlass org/gradle/internal/impldep/com/google/common/io/ByteSink
+instanceKlass org/gradle/internal/impldep/com/google/common/io/OutputSupplier
+instanceKlass org/gradle/internal/impldep/com/google/common/io/LineProcessor
+instanceKlass org/gradle/internal/impldep/com/google/common/io/Files
+instanceKlass org/jetbrains/plugins/gradle/DefaultExternalDependencyId
+instanceKlass org/jetbrains/plugins/gradle/ExternalDependencyId
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/AbstractMapBasedMultimap$WrappedCollection$WrappedIterator
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/resolve/DependencyResultsTransformer$AttributesBasedKey
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/resolve/DependencyResultsTransformer$ComponentResultKey
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/resolve/DependencyResultsTransformer
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/ModuleIdentifierImpl
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/ModuleComponentIdentifierImpl
+instanceKlass org/gradle/internal/impldep/com/google/common/base/Preconditions
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/Multiset
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/AbstractMultimap
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/ListMultimap
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/resolve/ArtifactQueryResolver
+instanceKlass org/jetbrains/plugins/gradle/model/FileCollectionDependency
+instanceKlass org/jetbrains/plugins/gradle/model/AbstractExternalDependency
+instanceKlass org/jetbrains/plugins/gradle/model/ExternalLibraryDependency
+instanceKlass org/jetbrains/plugins/gradle/model/ExternalDependency
+instanceKlass org/gradle/internal/impldep/com/google/common/base/Function
+instanceKlass org/gradle/internal/impldep/com/google/common/base/Predicate
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/Multimap
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/resolve/DependencyResolverImpl
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/DependencyResolver
+instanceKlass org/jetbrains/plugins/gradle/tooling/internal/BuildScriptClasspathModelImpl
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/JavaPluginUtil
+instanceKlass com/android/java/model/impl/GradlePluginModelImpl$Companion
+instanceKlass com/android/java/model/impl/GradlePluginModelImpl
+instanceKlass org/jetbrains/plugins/gradle/model/BuildScriptClasspathModel
+instanceKlass org/jetbrains/kotlin/kapt/idea/KaptGradleModel
+instanceKlass com/android/java/model/GradlePluginModel
+instanceKlass com/android/java/model/ArtifactModel
+instanceKlass com/android/java/model/JavaProject
+instanceKlass org/jetbrains/plugins/gradle/tooling/util/SourceSetCachedFinder
+instanceKlass org/jetbrains/plugins/gradle/model/ClasspathEntryModel
+instanceKlass org/jetbrains/plugins/gradle/tooling/ErrorMessageBuilder
+instanceKlass org/jetbrains/plugins/gradle/tooling/builder/ModelBuildScriptClasspathBuilderImpl
+instanceKlass org/jetbrains/plugins/gradle/tooling/ModelBuilderService
+instanceKlass BuildScriptClasspathModelBuilder
+instanceKlass BuildScriptClasspathModelBuilderPlugin
+instanceKlass org/jetbrains/kotlin/gradle/AbstractKotlinGradleModelBuilder$Companion
+instanceKlass org/jetbrains/plugins/gradle/tooling/ErrorMessageBuilder
+instanceKlass org/jetbrains/kotlin/gradle/AbstractKotlinGradleModelBuilder
+instanceKlass org/jetbrains/plugins/gradle/tooling/ModelBuilderService
+instanceKlass KaptModelBuilder
+instanceKlass KaptModelBuilderPlugin
+instanceKlass com/android/java/model/builder/GradlePluginModelBuilder
+instanceKlass com/android/java/model/builder/ArtifactModelBuilder
+instanceKlass com/android/java/model/builder/JavaModelBuilder$Companion
+instanceKlass com/android/java/model/builder/JavaModelBuilder
+instanceKlass com/android/java/model/builder/JavaLibraryPlugin
+instanceKlass com/google/common/collect/CollectSpliterators$1WithCharacteristics$$Lambda$1060
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/google/common/collect/CollectSpliterators$1WithCharacteristics
+instanceKlass com/google/common/collect/CollectSpliterators
+instanceKlass com/google/common/collect/IndexedImmutableSet$$Lambda$1059
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/graph/DexValue$a
+instanceKlass it/unimi/dsi/fastutil/ints/IntOpenHashSet$SetIterator
+instanceKlass org/gradle/internal/typeconversion/NotationConverterToNotationParserAdapter$1
+instanceKlass com/google/common/io/Closeables
+instanceKlass com/android/builder/internal/aapt/v2/Aapt2DaemonImpl$AllowShutdown
+instanceKlass com/android/builder/model/TestVariantBuildOutput
+instanceKlass com/android/build/FilterData
+instanceKlass com/android/build/OutputFile
+instanceKlass com/android/build/VariantOutput
+instanceKlass com/android/builder/model/VariantBuildOutput
+instanceKlass com/android/builder/model/BaseBuildOutput
+instanceKlass com/android/build/gradle/internal/ide/DefaultProjectBuildOutput
+instanceKlass com/android/build/gradle/internal/ide/BuildOutputsSupplier$$Lambda$1058
+instanceKlass com/android/builder/model/VariantBuildOutput
+instanceKlass com/android/build/gradle/internal/ide/BuildOutputsSupplier$$Lambda$1057
+instanceKlass com/android/build/gradle/internal/ide/EarlySyncBuildOutput$Companion
+instanceKlass com/android/build/gradle/internal/ide/ModelBuilder$$Lambda$1056
+instanceKlass com/android/build/gradle/internal/ide/ModelBuilder$$Lambda$1055
+instanceKlass com/android/build/gradle/internal/ide/DefaultBaseBuildOutput
+instanceKlass com/android/builder/model/TestVariantBuildOutput
+instanceKlass com/android/builder/model/BaseBuildOutput
+instanceKlass com/android/builder/model/ProjectBuildOutput
+instanceKlass com/android/builder/model/AppBundleVariantBuildOutput
+instanceKlass com/android/build/gradle/internal/ide/DefaultAppBundleProjectBuildOutput
+instanceKlass com/android/build/gradle/internal/ide/DefaultAppBundleVariantBuildOutput
+instanceKlass com/android/builder/model/AppBundleVariantBuildOutput
+instanceKlass com/android/builder/model/AppBundleProjectBuildOutput
+instanceKlass com/android/tools/idea/gradle/run/OutputBuildAction$PostBuildModuleModels
+instanceKlass com/google/common/collect/PeekingIterator
+instanceKlass com/google/common/collect/UnmodifiableIterator
+instanceKlass com/google/common/collect/Iterators
+instanceKlass org/gradle/tooling/model/gradle/GradleScript
+instanceKlass org/gradle/internal/impldep/com/google/common/base/Objects
+instanceKlass org/gradle/internal/impldep/com/google/common/base/Optional
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$MethodInvocationCache$MethodInvocationKey
+instanceKlass org/gradle/tooling/internal/adapter/MethodInvocation
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$AdaptingMethodInvoker
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$PropertyCachingMethodInvoker
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$SafeMethodInvoker
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$SupportedPropertyInvoker
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$ChainedMethodInvoker
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$ClassMixInMethodInvoker
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$BeanMixInMethodInvoker
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$InvocationHandlerImpl
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$ViewKey
+instanceKlass org/gradle/tooling/model/ProjectIdentifier
+instanceKlass org/gradle/tooling/model/DomainObjectSet
+instanceKlass org/gradle/tooling/model/BuildIdentifier
+instanceKlass org/gradle/tooling/model/cpp/CppBinary
+instanceKlass org/gradle/tooling/model/cpp/CppComponent
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$MixInMappingAction
+instanceKlass org/gradle/tooling/internal/consumer/converters/IncludedBuildsMixin
+instanceKlass org/gradle/tooling/internal/consumer/converters/IdeaModuleDependencyTargetNameMixin
+instanceKlass org/gradle/tooling/internal/consumer/converters/IdeaProjectJavaLanguageSettingsMixin
+instanceKlass org/gradle/tooling/internal/consumer/converters/TaskDisplayNameMixin
+instanceKlass org/gradle/tooling/model/GradleTask
+instanceKlass org/gradle/tooling/model/Task
+instanceKlass org/gradle/tooling/model/Launchable
+instanceKlass org/gradle/tooling/internal/consumer/converters/FixedBuildIdentifierProvider
+instanceKlass org/gradle/tooling/internal/consumer/converters/BasicGradleProjectIdentifierMixin
+instanceKlass org/gradle/tooling/model/gradle/BasicGradleProject
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$TypeSpecificMappingAction
+instanceKlass org/gradle/tooling/internal/consumer/converters/GradleProjectIdentifierMixin
+instanceKlass org/gradle/tooling/internal/gradle/DefaultBuildIdentifier
+instanceKlass org/gradle/tooling/internal/gradle/DefaultProjectIdentifier
+instanceKlass org/gradle/tooling/internal/gradle/GradleProjectIdentity
+instanceKlass org/gradle/tooling/internal/gradle/GradleBuildIdentity
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$DefaultViewBuilder
+instanceKlass org/gradle/tooling/internal/consumer/versioning/ModelMapping$DefaultModelIdentifier
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$2
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$ViewGraphDetails
+instanceKlass org/gradle/tooling/model/gradle/ProjectPublications
+instanceKlass org/gradle/tooling/model/gradle/GradleBuild
+instanceKlass org/gradle/tooling/internal/protocol/InternalProjectOutcomes
+instanceKlass org/gradle/tooling/model/internal/outcomes/ProjectOutcomes
+instanceKlass org/gradle/tooling/model/build/BuildEnvironment
+instanceKlass org/gradle/tooling/model/BuildModel
+instanceKlass org/gradle/tooling/internal/protocol/InternalBasicIdeaProject
+instanceKlass org/gradle/tooling/model/idea/BasicIdeaProject
+instanceKlass org/gradle/tooling/internal/protocol/InternalGradleProject
+instanceKlass org/gradle/tooling/model/GradleProject
+instanceKlass org/gradle/tooling/model/BuildableElement
+instanceKlass org/gradle/tooling/internal/protocol/InternalIdeaProject
+instanceKlass org/gradle/tooling/model/idea/IdeaProject
+instanceKlass org/gradle/tooling/internal/protocol/eclipse/EclipseProjectVersion3
+instanceKlass org/gradle/tooling/internal/protocol/BuildableProjectVersion1
+instanceKlass org/gradle/tooling/model/eclipse/EclipseProject
+instanceKlass org/gradle/tooling/internal/protocol/eclipse/HierarchicalEclipseProjectVersion1
+instanceKlass org/gradle/tooling/internal/protocol/HierarchicalProjectVersion1
+instanceKlass org/gradle/tooling/model/eclipse/HierarchicalEclipseProject
+instanceKlass org/gradle/tooling/model/HasGradleProject
+instanceKlass org/gradle/tooling/model/ProjectModel
+instanceKlass org/gradle/tooling/model/HierarchicalElement
+instanceKlass org/gradle/tooling/model/Element
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/AbstractMapEntry
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/Hashing
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/CollectPreconditions
+instanceKlass org/gradle/internal/impldep/com/google/common/collect/BiMap
+instanceKlass org/gradle/tooling/internal/consumer/versioning/ModelMapping
+instanceKlass org/gradle/tooling/internal/consumer/connection/InternalBuildActionAdapter$2
+instanceKlass org/gradle/tooling/internal/consumer/connection/HasCompatibilityMapping
+instanceKlass org/gradle/tooling/model/internal/outcomes/GradleFileBuildOutcome
+instanceKlass org/gradle/tooling/model/internal/outcomes/GradleBuildOutcome
+instanceKlass org/gradle/tooling/model/idea/IdeaModuleDependency
+instanceKlass org/gradle/tooling/model/idea/IdeaSingleEntryLibraryDependency
+instanceKlass org/gradle/tooling/model/ExternalDependency
+instanceKlass org/gradle/tooling/model/idea/IdeaDependency
+instanceKlass org/gradle/tooling/model/Dependency
+instanceKlass org/gradle/tooling/internal/consumer/converters/ConsumerTargetTypeProvider
+instanceKlass org/gradle/tooling/internal/adapter/CollectionMapper
+instanceKlass org/gradle/tooling/internal/adapter/TypeInspector
+instanceKlass org/gradle/internal/impldep/com/google/common/base/Preconditions
+instanceKlass org/gradle/internal/time/DefaultTimer
+instanceKlass org/gradle/internal/time/TimeSource$1
+instanceKlass org/gradle/internal/time/TimeSource
+instanceKlass org/gradle/internal/time/MonotonicClock
+instanceKlass org/gradle/internal/time/CountdownTimer
+instanceKlass org/gradle/internal/time/Timer
+instanceKlass org/gradle/internal/time/Clock
+instanceKlass org/gradle/internal/time/Time
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$MethodInvocationCache
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$ReflectionMethodInvoker
+instanceKlass org/gradle/tooling/internal/adapter/MethodInvoker
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$1
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$NoOpDecoration
+instanceKlass org/gradle/internal/typeconversion/NotationParser
+instanceKlass org/gradle/internal/typeconversion/NotationConverter
+instanceKlass org/gradle/tooling/internal/adapter/ViewBuilder
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$ViewDecoration
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter
+instanceKlass org/gradle/tooling/internal/adapter/ObjectGraphAdapter
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$IncrementalSplitterRunnable$$Lambda$1054
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$1053
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$1052
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$1051
+instanceKlass java/util/stream/Streams$2
+instanceKlass java/util/stream/Streams
+instanceKlass java/util/stream/Streams$ConcatSpliterator
+instanceKlass com/android/apksig/DefaultApkSignerEngine$OutputApkSigningBlockRequestImpl
+instanceKlass sun/security/rsa/RSACore$BlindingRandomPair
+instanceKlass sun/security/jca/JCAUtil$CachedSecureRandomHolder
+instanceKlass sun/security/rsa/RSACore$BlindingParameters
+instanceKlass com/android/apksig/internal/apk/v2/V2SchemeSigner$V2SignatureSchemeBlock$Signer
+instanceKlass com/android/apksig/internal/apk/v2/V2SchemeSigner$V2SignatureSchemeBlock$SignedData
+instanceKlass com/android/apksig/internal/util/ByteBufferUtils
+instanceKlass com/android/apksig/internal/x509/RSAPublicKey
+instanceKlass com/android/apksig/internal/asn1/Asn1OpaqueObject
+instanceKlass com/android/apksig/internal/asn1/Asn1BerParser$BerToJavaConverter
+instanceKlass com/android/apksig/internal/asn1/Asn1BerParser$$Lambda$1050
+instanceKlass com/android/apksig/internal/asn1/Asn1BerParser$AnnotatedField
+instanceKlass com/android/apksig/internal/asn1/Asn1Field
+instanceKlass com/android/apksig/internal/pkcs7/AlgorithmIdentifier
+instanceKlass com/android/apksig/internal/asn1/ber/BerEncoding$1
+instanceKlass com/android/apksig/internal/asn1/Asn1BerParser$1
+instanceKlass com/android/apksig/internal/asn1/Asn1Class
+instanceKlass com/android/apksig/internal/asn1/ber/BerDataValue
+instanceKlass com/android/apksig/internal/asn1/ber/BerEncoding
+instanceKlass com/android/apksig/internal/asn1/ber/ByteBufferBerDataValueReader
+instanceKlass com/android/apksig/internal/asn1/ber/BerDataValueReader
+instanceKlass com/android/apksig/internal/asn1/Asn1BerParser
+instanceKlass com/android/apksig/internal/x509/SubjectPublicKeyInfo
+instanceKlass sun/security/jca/JCAUtil
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$ChunkSupplier$Chunk
+instanceKlass com/android/apksig/internal/util/MessageDigestSink
+instanceKlass com/android/apksig/util/ReadableDataSink
+instanceKlass com/android/apksig/util/DataSink
+instanceKlass com/android/apksig/util/DataSinks
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$ChunkDigester
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$$Lambda$1049
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$ChunkSupplier
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$ChunkDigests
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$$Lambda$1048
+instanceKlass java/security/spec/MGF1ParameterSpec
+instanceKlass java/security/spec/PSSParameterSpec
+instanceKlass com/android/apksig/internal/apk/v2/V2SchemeSigner
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils$SignerConfig
+instanceKlass com/android/apksig/internal/zip/ZipUtils
+instanceKlass com/android/apksig/internal/util/Pair
+instanceKlass com/android/apksig/internal/apk/ApkSigningBlockUtils
+instanceKlass com/android/apksig/internal/util/RandomAccessFileDataSource
+instanceKlass com/android/apksig/internal/util/ByteBufferDataSource
+instanceKlass com/android/apksig/util/DataSource
+instanceKlass com/android/apksig/util/DataSources
+instanceKlass com/android/tools/build/apkzlib/zip/Eocd$$Lambda$1047
+instanceKlass com/android/tools/build/apkzlib/zip/ExtraField$AlignmentSegment
+instanceKlass com/android/tools/build/apkzlib/zip/ExtraField$Segment
+instanceKlass com/android/tools/build/apkzlib/sign/SigningExtension$1$$Lambda$1046
+instanceKlass com/android/tools/build/apkzlib/sign/ManifestGenerationExtension$1$$Lambda$1045
+instanceKlass com/google/common/collect/HashBiMap$Itr
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1044
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$1043
+instanceKlass com/android/tools/build/apkzlib/utils/CachedFileContents
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$1042
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$1041
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$1040
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$1039
+instanceKlass com/android/tools/build/apkzlib/sign/SigningExtension$1$$Lambda$1038
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$1037
+instanceKlass com/android/tools/build/apkzlib/zip/FileUseMap$1
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$3
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkZFileCreator$$Lambda$1036
+instanceKlass com/android/tools/build/apkzlib/zip/StoredEntry$$Lambda$1035
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1034
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1033
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1032
+instanceKlass com/android/builder/internal/packaging/PackagedFileUpdates
+instanceKlass com/google/common/base/Predicates$CompositionPredicate
+instanceKlass com/google/common/base/Predicates
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1031
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1030
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1029
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1028
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$1027
+instanceKlass com/android/tools/build/apkzlib/zip/CompressionResult
+instanceKlass com/google/common/util/concurrent/Futures$CallbackListener
+instanceKlass java/util/zip/Deflater
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$2
+instanceKlass com/android/tools/build/apkzlib/zip/compress/ExecutorCompressor$$Lambda$1026
+instanceKlass com/android/tools/build/apkzlib/zip/utils/MsDosDateTimeUtils
+instanceKlass com/google/common/primitives/UnsignedInts
+instanceKlass com/google/common/hash/Funnel
+instanceKlass com/google/common/hash/Funnels
+instanceKlass com/google/common/hash/ImmutableSupplier
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1025
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1024
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1023
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1022
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$1
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$1021
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$1020
+instanceKlass com/android/builder/internal/packaging/PackagedFileUpdate
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$1019
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$Bucket
+instanceKlass com/android/builder/internal/packaging/DexFileNameSupplier
+instanceKlass java/util/stream/SortedOps$RefSortingSink$$Lambda$1018
+instanceKlass java/util/Collections$UnmodifiableMap$UnmodifiableEntrySet$$Lambda$1017
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$1016
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$DexFileComparator
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$1015
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$1014
+instanceKlass java/util/Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntrySetSpliterator
+instanceKlass com/android/builder/files/NativeLibraryAbiPredicate
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager
+instanceKlass com/android/tools/build/apkzlib/sign/SigningExtension$2
+instanceKlass com/android/apksig/util/RunnablesExecutor$$Lambda$1013
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/apksig/util/RunnablesProvider
+instanceKlass com/android/apksig/util/RunnablesExecutor
+instanceKlass com/android/apksig/ApkSignerEngine$OutputJarSignatureRequest
+instanceKlass com/android/apksig/ApkSignerEngine$InspectJarEntryRequest
+instanceKlass com/android/apksig/ApkSignerEngine$OutputApkSigningBlockRequest2
+instanceKlass com/android/apksig/ApkSignerEngine$OutputApkSigningBlockRequest
+instanceKlass com/android/apksig/DefaultApkSignerEngine
+instanceKlass com/android/apksig/DefaultApkSignerEngine$Builder
+instanceKlass com/android/apksig/DefaultApkSignerEngine$SignerConfig
+instanceKlass com/android/apksig/DefaultApkSignerEngine$SignerConfig$Builder
+instanceKlass com/android/tools/build/apkzlib/sign/SigningExtension$$Lambda$1012
+instanceKlass com/android/apksig/ApkSignerEngine
+instanceKlass com/android/tools/build/apkzlib/sign/SigningExtension
+instanceKlass java/util/Vector$1
+instanceKlass com/google/common/collect/Lists$ReverseList$1
+instanceKlass com/android/tools/build/apkzlib/sign/ManifestGenerationExtension$$Lambda$1011
+instanceKlass com/android/tools/build/apkzlib/sign/ManifestGenerationExtension
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$1010
+instanceKlass com/android/tools/build/apkzlib/utils/IOExceptionFunction
+instanceKlass com/android/tools/build/apkzlib/zip/ZFileExtension
+instanceKlass com/android/tools/build/apkzlib/zip/ProcessedAndRawByteSources
+instanceKlass com/android/tools/build/apkzlib/zip/StoredEntry$$Lambda$1009
+instanceKlass com/android/tools/build/apkzlib/zip/StoredEntry
+instanceKlass com/android/tools/build/apkzlib/zip/ExtraField
+instanceKlass com/android/tools/build/apkzlib/zip/CentralDirectoryHeader
+instanceKlass com/google/common/util/concurrent/ImmediateFuture
+instanceKlass com/google/common/util/concurrent/CheckedFuture
+instanceKlass com/google/common/util/concurrent/GwtFuturesCatchingSpecialization
+instanceKlass com/android/tools/build/apkzlib/zip/CentralDirectoryHeaderCompressInfo
+instanceKlass com/android/tools/build/apkzlib/zip/EncodeUtils
+instanceKlass com/android/tools/build/apkzlib/zip/GPFlags
+instanceKlass com/android/tools/build/apkzlib/zip/CentralDirectory$$Lambda$1008
+instanceKlass com/android/tools/build/apkzlib/zip/CentralDirectory
+instanceKlass com/android/tools/build/apkzlib/zip/Eocd$$Lambda$1007
+instanceKlass com/android/tools/build/apkzlib/utils/CachedSupplier
+instanceKlass com/android/tools/build/apkzlib/zip/utils/LittleEndianUtils
+instanceKlass com/android/tools/build/apkzlib/zip/ZipFieldInvariantMaxValue
+instanceKlass com/android/tools/build/apkzlib/zip/ZipFieldInvariantNonNegative
+instanceKlass com/android/tools/build/apkzlib/zip/ZipFieldInvariant
+instanceKlass com/android/tools/build/apkzlib/zip/ZipField
+instanceKlass com/android/tools/build/apkzlib/zip/Eocd
+instanceKlass com/android/tools/build/apkzlib/zip/VerifyLogs$1
+instanceKlass com/android/tools/build/apkzlib/bytestorage/LruTracker$$Lambda$1006
+instanceKlass com/android/tools/build/apkzlib/bytestorage/LruTracker
+instanceKlass com/android/tools/build/apkzlib/bytestorage/TemporaryDirectory$1
+instanceKlass com/android/tools/build/apkzlib/bytestorage/TemporaryFile
+instanceKlass java/nio/file/TempFileHelper
+instanceKlass com/android/tools/build/apkzlib/bytestorage/TemporaryDirectoryStorage
+instanceKlass com/android/tools/build/apkzlib/bytestorage/InMemoryByteStorage
+instanceKlass com/android/tools/build/apkzlib/bytestorage/OverflowToDiskByteStorage
+instanceKlass com/android/tools/build/apkzlib/bytestorage/ChunkBasedByteStorage
+instanceKlass com/android/tools/build/apkzlib/zip/FileUseMapEntry$$Lambda$1005
+instanceKlass com/android/tools/build/apkzlib/zip/FileUseMapEntry$$Lambda$1004
+instanceKlass com/android/tools/build/apkzlib/zip/FileUseMapEntry
+instanceKlass com/android/tools/build/apkzlib/zip/FileUseMap
+instanceKlass com/google/common/util/concurrent/FutureCallback
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile
+instanceKlass com/android/tools/build/apkzlib/zip/AlignmentRules$$Lambda$1003
+instanceKlass com/android/tools/build/apkzlib/zfile/ZFiles
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkZFileCreator$1
+instanceKlass com/android/tools/build/apkzlib/zip/AlignmentRules$$Lambda$1002
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkZFileCreator
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkZFileCreatorFactory
+instanceKlass com/android/tools/build/apkzlib/zip/utils/ByteTracker
+instanceKlass com/android/tools/build/apkzlib/zip/ZFileOptions$$Lambda$1001
+instanceKlass com/android/tools/build/apkzlib/zip/VerifyLog
+instanceKlass com/android/tools/build/apkzlib/zip/VerifyLogs
+instanceKlass com/android/tools/build/apkzlib/zip/AlignmentRules$$Lambda$1000
+instanceKlass com/android/tools/build/apkzlib/zip/AlignmentRules
+instanceKlass com/android/tools/build/apkzlib/zip/AlignmentRule
+instanceKlass com/android/tools/build/apkzlib/zip/ZFileOptions$$Lambda$999
+instanceKlass com/android/tools/build/apkzlib/zip/compress/ExecutorCompressor
+instanceKlass com/android/tools/build/apkzlib/zip/ZFileOptions$$Lambda$998
+instanceKlass com/android/tools/build/apkzlib/bytestorage/TemporaryDirectoryFactory
+instanceKlass com/android/tools/build/apkzlib/bytestorage/TemporaryDirectory
+instanceKlass com/android/tools/build/apkzlib/bytestorage/OverflowToDiskByteStorageFactory
+instanceKlass com/android/tools/build/apkzlib/bytestorage/ByteStorage
+instanceKlass com/android/tools/build/apkzlib/bytestorage/ChunkBasedByteStorageFactory
+instanceKlass com/android/tools/build/apkzlib/bytestorage/ByteStorageFactory
+instanceKlass com/android/tools/build/apkzlib/zip/ZFileOptions
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkCreatorFactory
+instanceKlass com/android/tools/build/apkzlib/zip/Compressor
+instanceKlass com/android/build/gradle/internal/packaging/ApkCreatorFactories
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager
+instanceKlass com/android/build/gradle/internal/packaging/IncrementalPackagerBuilder$$Lambda$997
+instanceKlass com/android/builder/packaging/PackagingUtils$$Lambda$996
+instanceKlass com/android/build/gradle/internal/packaging/IncrementalPackagerBuilder$1
+instanceKlass com/android/tools/build/apkzlib/sign/SigningOptions$Builder
+instanceKlass com/android/tools/build/apkzlib/sign/SigningOptions
+instanceKlass com/android/ide/common/signing/CertificateInfo
+instanceKlass java/security/KeyStore$PrivateKeyEntry
+instanceKlass java/security/KeyStore$Entry
+instanceKlass sun/security/pkcs/EncryptedPrivateKeyInfo
+instanceKlass sun/security/provider/KeyProtector
+instanceKlass sun/security/provider/JavaKeyStore$TrustedCertEntry
+instanceKlass java/security/KeyStore$PasswordProtection
+instanceKlass sun/security/provider/JavaKeyStore$KeyEntry
+instanceKlass sun/security/provider/KeyStoreDelegator$1
+instanceKlass java/security/KeyStoreSpi
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkCreatorFactory$CreationData$$Lambda$995
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkCreatorFactory$CreationData$Builder
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkCreatorFactory$CreationData
+instanceKlass com/android/build/gradle/internal/packaging/IncrementalPackagerBuilder
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$994
+instanceKlass com/android/tools/build/apkzlib/utils/IOExceptionRunnable$$Lambda$993
+instanceKlass com/android/builder/files/IncrementalRelativeFileSets$$Lambda$992
+instanceKlass com/android/tools/build/apkzlib/utils/IOExceptionRunnable
+instanceKlass com/android/builder/files/DirectoryEntry
+instanceKlass com/android/builder/files/ZipCentralDirectoryKt
+instanceKlass com/android/builder/files/ZipCentralDirectory$CdrInfo
+instanceKlass org/apache/commons/codec/binary/BaseNCodec$Context
+instanceKlass org/apache/commons/codec/binary/BaseNCodec
+instanceKlass org/apache/commons/codec/BinaryDecoder
+instanceKlass org/apache/commons/codec/Decoder
+instanceKlass org/apache/commons/codec/BinaryEncoder
+instanceKlass org/apache/commons/codec/Encoder
+instanceKlass com/android/builder/files/IncrementalRelativeFileSets
+instanceKlass com/android/builder/files/ZipCentralDirectory
+instanceKlass com/android/builder/files/IncrementalChanges
+instanceKlass com/android/build/gradle/internal/scope/BuildElements$WorkersBasedScheduler$transform$2
+instanceKlass com/android/build/gradle/internal/tasks/SigningConfigMetadata$Companion
+instanceKlass com/android/build/gradle/internal/tasks/SigningConfigMetadata
+instanceKlass com/android/build/gradle/tasks/IncrementalChangesUtils$WhenMappings
+instanceKlass com/android/builder/files/SerializableChange
+instanceKlass com/android/build/gradle/tasks/IncrementalChangesUtils
+instanceKlass com/android/build/gradle/internal/scope/BuildElementActionScheduler
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$991
+instanceKlass com/android/build/gradle/internal/scope/BuildElementsTransformRunnable
+instanceKlass com/android/build/gradle/internal/tasks/NewIncrementalTask$taskAction$$inlined$recordTaskAction$1
+instanceKlass org/gradle/internal/execution/history/changes/DefaultIncrementalInputProperties$$Lambda$990
+instanceKlass com/google/common/collect/ForwardingObject
+instanceKlass org/gradle/internal/execution/history/changes/DefaultIncrementalInputProperties$$Lambda$989
+instanceKlass org/gradle/internal/execution/history/changes/DefaultIncrementalInputProperties$$Lambda$988
+instanceKlass com/google/common/base/Predicates$CompositionPredicate
+instanceKlass org/gradle/internal/execution/history/changes/DefaultIncrementalInputProperties$$Lambda$987
+instanceKlass org/gradle/internal/execution/history/changes/DefaultIncrementalInputProperties
+instanceKlass org/gradle/internal/execution/steps/ResolveChangesStep$$Lambda$986
+instanceKlass org/gradle/internal/execution/UnitOfWork$InputFilePropertyVisitor
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/builder/packaging/PackagingUtils
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$985
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$984
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$983
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$982
+instanceKlass com/android/tools/r8/m/a/a/b/M0
+instanceKlass com/android/tools/r8/m/a/a/b/I0
+instanceKlass com/android/tools/r8/dex/VirtualFile$j
+instanceKlass com/android/tools/r8/dex/VirtualFile$i
+instanceKlass com/android/tools/r8/dex/VirtualFile$c$$Lambda$981
+instanceKlass com/android/tools/r8/dex/VirtualFile$$Lambda$980
+instanceKlass com/android/tools/r8/naming/ClassNameMapper
+instanceKlass com/android/tools/r8/naming/z
+instanceKlass com/android/tools/r8/dex/DexParser$c
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$975
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$968
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$961
+instanceKlass com/android/tools/r8/dex/DexParser$d
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$954
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$946
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$940
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$933
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$927
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$918
+instanceKlass com/android/tools/r8/dex/DexParser$b
+instanceKlass com/android/tools/r8/code/InstructionFactory$a
+instanceKlass com/android/tools/r8/code/A
+instanceKlass com/android/tools/r8/code/z
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$914
+instanceKlass com/android/tools/r8/dex/ApplicationReader$a$$Lambda$911
+instanceKlass com/android/tools/r8/dex/ApplicationReader$a$$Lambda$910
+instanceKlass com/android/tools/r8/dex/DexParser$$Lambda$909
+instanceKlass com/android/tools/r8/dex/DexSection
